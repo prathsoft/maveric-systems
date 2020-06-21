@@ -17,8 +17,11 @@ Postgres installation:
 	docker build -t my-postgres-image .
 	
 2. Post installation of postgres in docker run container as below command	
+
 	1.docker run -d --name my-postgres-container -p 5555:5432 my-postgres-image
+	
 	2.docker exec -it my-postgres-container bash
+	
 	3.psql -U postgres
 	
 3. create database fifa;
@@ -32,7 +35,7 @@ Steps:
 3. run "mvn package"
 4. set JAVA_HOME, SPARK_HOME, HADOOP_HOME
 5. program needs two argument in command. Run below command
-	spark-submit --class fifaproblem.fifa.analytics.FifaAnalytics --master local[2] <path of jar file> <input file path> <output folde path>\
+	spark-submit --class fifaproblem.fifa.analytics.FifaAnalytics --master local[2] 'Path_of_jar' 'input_file_path' 'output_folde _path'\
 	
 	e.g. 
 	spark-submit --class fifaproblem.fifa.analytics.FifaAnalytics --master local[2] C:\Users\prathameshj\workspace\fifa.analytics\target\fifa.analytics-0.0.1-SNAPSHOT.jar C:\Users\prathameshj\Documents\FIFA\data.csv C:\Users\prathameshj\Documents\FIFA\
