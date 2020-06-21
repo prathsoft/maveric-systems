@@ -73,8 +73,11 @@
 1. see [output folde path] for all output files 
 2. Go to postgres console using "psql -U postgres" post starting postgres using "docker exec -it my-postgres-container bash"
    or configure postgres in db visualizer like dbeaver. Run below queries
+   
    		   1. Select database fifa;
+		   
 		   2. \connect info;
+		   
 		   3. SELECT * FROM info.players order by Overall desc;
 
    
