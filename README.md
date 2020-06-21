@@ -17,9 +17,9 @@ Postgres installation:
 	docker build -t my-postgres-image .
 	
 2. Post installation of postgres in docker run container as below command	
-	docker run -d --name my-postgres-container -p 5555:5432 my-postgres-image
-	docker exec -it my-postgres-container bash
-	psql -U postgres
+	1.docker run -d --name my-postgres-container -p 5555:5432 my-postgres-image
+	2.docker exec -it my-postgres-container bash
+	3.psql -U postgres
 	
 3. create database fifa;
 4. \connect fifa
