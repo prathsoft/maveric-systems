@@ -2,15 +2,19 @@
 ***
 1. question_2a : Club : KFC Uerdingen 05, Galatasaray SK,Zaragoza, Sevilla FC, Borussia Dortmund
 
+   Approach    : Applied filter for age and mid filder as given , skipped null clubs , aggregated count by clubs. Taken max values by count	
 	 
 2. question_2b : Club:Real Madrid
 
+   Approach    : calculated max overall ranking for Club, Position where postion for 4-4-2 and GK are considered as given then grouped by Club . Taken max average.
 		 
-3. question_2c : Club:Paris Saint-Germain
-		 
-		 isLargesWageBill:false
+3. question_2c : Club:Paris Saint-Germain. This team has not largest wage bill
+
+   Approach    : Extracted numbers from Value and Wage. converted every value in THoudsand Euros. Calculated sum of value and wage for every CLub. Taken highest sumed Valued. Compared sumed Wage for Club against max summed wage.
 		 
 4. question_2d : Position:RF
+
+   Approach    : Extracted numbers from Wage. Calculated maximum average for each position against wages.
 
 5. question_2e : Attributes : GKReflexes, Reactions, GKDiving, GKPositioning
 
