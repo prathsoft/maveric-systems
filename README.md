@@ -1,17 +1,24 @@
 ### Output:
 ***
 1. question_2a : Club : KFC Uerdingen 05, Galatasaray SK,Zaragoza, Sevilla FC, Borussia Dortmund
-                 Score: 6
+
+	 
 2. question_2b : Club:Real Madrid
-		 overallAvg:86.44444444444444
+
+		 
 3. question_2c : Club:Paris Saint-Germain
-		 Value:211825.00
+		 
 		 isLargesWageBill:false
+		 
 4. question_2d : Position:RF
-		 AvgWage:46.0625
+
 5. question_2e : Attributes : GKReflexes, Reactions, GKDiving, GKPositioning
+
+   Approach    : calculated average skills for best goalkeeper (GK). Then transposed the skill output to select top 4 valued skills.
+   
 6. question_2f : Reactions, ShotPower, Positioning, Composure, Jumping
 
+   Approach    : calculated average skills for best stricker (ST). Then transposed the skill output to select top 5 valued skills.	
 ### Assumptions:
 ***
 1. Java 8 is installed
