@@ -48,7 +48,7 @@
 	
 2. Post installation of postgres in docker run container as below command	
 
-	docker run -d --name my-postgres-container -p 5555:5432 my-postgres-image
+	docker run -d --name my-postgres-container -p 5555:5432 -e POSTGRES_PASSWORD=postgres my-postgres-image
 	
 	docker exec -it my-postgres-container bash
 	
