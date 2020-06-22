@@ -40,7 +40,11 @@
 ***
 1. Go to folder named 'postgres' and Run below command:
 
-	docker build -t my-postgres-image .
+	docker build -t my-postgres-image 
+	
+	or
+	
+	docker pull postgres:11.5
 	
 2. Post installation of postgres in docker run container as below command	
 
